@@ -1,0 +1,30 @@
+{
+    "introduction": {
+        "name": "Introduction",
+        "children": {
+            "/": "Introduction to HTool"
+        }
+    },
+    "macho-options": {
+        "name": "Mach-O Options",
+        "children": {
+            "dump-header": "Dump a Mach-O Header",
+            "dump-load-commands": "Dump Mach-O Load Commands",
+            "dump-shared-libraries": "Dump Mach-O Shared Libraries"
+        }
+    },
+    "static-analysis": {
+        "name": "Static Analysis Options",
+        "children": {
+            "kernel": "Kernel",
+            "iboot": "iBoot"
+        }
+    },
+    "other": {
+        "name": "Other Options",
+        "children": {
+            "information": "Build Information",
+            "mash": "Legacy Mach-O Shell (Mash)"
+        }
+    }
+}
